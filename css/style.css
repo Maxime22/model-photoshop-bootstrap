@@ -1,0 +1,409 @@
+/* General */
+
+
+p{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color : #f6f7fa;
+}
+
+img{
+    width: 100%;
+}
+
+#start{
+    background-image: url(../images/mastheadmountain.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-bottom: 0px;
+}
+
+/* Header */
+
+header{
+    margin-top: 50px;
+}
+
+#pictureperfecttitle{
+
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    color : #f6f7fa;
+}
+
+/* Section 1 */
+
+.paraph1{
+    color : #f6f7fa;
+}
+
+.imgphonepad{
+    padding-top: 50px;
+}
+
+/* Section 2 */
+
+#description{
+    position:relative;
+    top:-160px;
+}
+
+.paraph2{
+    color : gray;
+}
+
+.h2toincrease{
+    padding-left: 15px;
+    font-size: 44px;
+    font-family: 'Roboto', sans-serif;
+    color : black;
+}
+
+/* Section 3 */
+
+#featured_content{
+    /*position:relative;*/
+    /*top:-70px;*/
+}
+
+#left1,#left2,#left3,#left4,#left5{
+    background-size: cover;
+    height: 280px;
+}
+
+#left1{
+    background-color: #f5989d;
+}
+
+#left2{
+    background-color: #615f7d;
+}
+
+#left3{
+    background-image: url(../images/lac.png);
+}
+
+#left4{
+    background-image: url(../images/hat.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#left5{
+    background-color: #82ca9c;
+}
+
+.tabletitle{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color : #f6f7fa;
+
+}
+
+.pad50{
+    padding : 50px 50px 50px 50px;
+}
+
+#sec3{
+    margin-bottom:50px;
+    position : relative;
+    top:-50px;
+}
+
+/* Section 4 */
+
+#details{
+
+    margin-bottom: 120px;
+
+}
+
+.detailtitle{
+    font-size:15px;
+    font-weight: bold;
+    color : gray;
+}
+
+/* Section 5 */
+
+#car{
+    background-image: url(../images/voiture.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0px;
+    padding-bottom: 60px;
+    padding-top: 460px;
+}
+
+#bigtitle{
+
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    color : #f6f7fa;
+}
+
+/* Section 6 */
+
+#about
+{
+    padding-bottom: 150px;
+    background-color: #82ca9c;
+}
+
+#h2toincreasewhite{
+    font-size: 44px;
+    font-family: 'Roboto', sans-serif;
+    color : #f6f7fa;
+    margin-top: 135px;
+
+}
+
+.detailtitlewhite{
+    font-weight: bold;
+    color : #f6f7fa;
+    font-size:15px;
+
+}
+
+/* Section 7 */
+
+#price_ranges{
+    padding-bottom: 175px;
+    background-color: #f6f7fa;
+}
+
+#margtop{
+    margin-top: 120px;
+}
+
+#neutralbckgd{
+    padding: 50px 50px 50px 50px;
+}
+
+#whitebckgd{
+    background-color: white;
+    padding: 50px 50px 50px 50px;
+}
+
+#leg{
+    color: white;
+    background-color: #e1e1e1;
+}
+
+#popu{
+    color: white;
+    background-color: #bd8cbf;
+}
+
+/* Footer */
+
+footer{
+    background-color: #192431;
+    padding-top: 95px;
+    padding-bottom: 150px;
+}
+
+#lastp{
+    margin-top: 65px;
+}
+
+#btnok{
+    color:white;
+    background-color: #82ca9c;
+    height: 55px;
+
+}
+
+.glyphicon-ok{
+    font-size: 22px;
+}
+
+/* Media Queries */
+
+@media (min-width: 1200px) {
+
+    /* Header */
+
+    #pictureperfecttitle{
+
+        margin-top: 360px;
+    }
+
+    #big_picture{
+        margin-top:450px;
+    }
+
+    #imgphone{
+
+        margin-top: 250px;
+    }
+
+
+}
+
+@media (max-width: 1199px) {
+
+    /* Header */
+
+    #pictureperfecttitle{
+
+        margin-top: 250px;
+    }
+
+    #imgphone{
+
+        margin-top: 250px;
+    }
+
+    /* Section 2 */
+
+    #description{
+        position:relative;
+        top:0px;
+        margin-bottom:70px;
+    }
+
+    /* Section 3 */
+
+    #sec3{
+        margin-bottom:50px;
+        position : static;
+        top: 0px;
+    }
+
+
+}
+
+@media (max-width: 991px) {
+
+    /* Header */
+
+    #pictureperfecttitle{
+
+        margin-top: 150px;
+    }
+
+
+    #imgphone{
+
+        margin-top: 0px;
+    }
+
+    /* Section 2 */
+
+    #description{
+        position:relative;
+        top:0px;
+    }
+
+    /* Section 7 */
+
+    #margtop{
+        margin-top: 0px;
+    }
+
+    #price_ranges {
+        padding-bottom: 50px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    /* Header */
+
+    #pictureperfecttitle{
+
+        margin-top: 150px;
+    }
+
+    /* Section 7 */
+
+    #price_ranges {
+        padding-bottom: 0px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* ANCIEN STYLE
+body{
+
+    width: 1230px;
+    margin: auto;
+
+    /*border: #ff0000 1px solid;
+
+}
+
+#imgmountain{
+
+    position: relative;
+    top : 0px;
+    left : -340px;
+    z-index: 1;
+
+}
+
+#logotake{
+
+    position: absolute;
+    top : 50px;
+    z-index: 2;
+
+}
+
+#iphone{
+
+    position: absolute;
+    top : 260px;
+    left : 45%;
+    z-index: 2;
+
+}
+
+#pictureperfect{
+
+    position: absolute;
+    top : 450px;
+    color : #f6f7fa;
+    z-index: 3;
+
+}
+
+#pictureperfecttitle{
+
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    color : #f6f7fa;
+
+
+}
+
+?{
+
+    position: absolute;
+    top : 450px;
+    z-index: 2;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    color : black;
+}
+
+p{
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    color : #f6f7fa;
+    width: 440px;
+}
+ */
